@@ -64,8 +64,8 @@
 // }
 // horoscopo();
 
-creando 2 objetos con 5 propiedadas cada uno.y 
-2 arreeglos que incluyan un arreglo de objetos y un arreglo de strings.
+// creando 2 objetos con 5 propiedadas cada uno.y 
+// 2 arreeglos que incluyan un arreglo de objetos y un arreglo de strings.
 
 
  let user={
