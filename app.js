@@ -14,6 +14,16 @@
 
 
 function horoscopo(dia, mes){
+    
+    dia = prompt ('Por favor introduce dia');
+    mes = prompt ('Por favor introduce mes');
+    edad = Number(dia);
+    mes=Number(mes)
+
+if (dia =="" && mes=="") { 
+    alert ('No has introducido datos'); 
+}else{
+    
 if(dia>=21 && mes==3 || dia<=19 && mes==4){
     console.log("su signo es aries");
 }else if (dia>=20 && mes==4 || dia<=20 && mes==5){
@@ -49,5 +59,7 @@ else if (dia>=21 && mes==1 || dia<=19 && mes==2){
 else if (dia>=20 && mes==02 || dia<=20 && mes==3){
     console.log("su signo es piscis");
 }
+    }
+
 }
-horoscopo(19,5);
+horoscopo();
